@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\EasyxTools">
+      <UniqueIdentifier>{e6385580-e63a-431b-98e5-f31bbf003fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\EasyxTools">
+      <UniqueIdentifier>{03a3156a-5647-41ea-ab3e-7d7225f4fd46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hanjiaruanjian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Management.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>源文件\EasyxTools</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pushbutton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cunfang.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="history.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Usersname.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Management.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>头文件\EasyxTools</Filter>
+    </ClInclude>
+    <ClInclude Include="configure.h">
+      <Filter>头文件\EasyxTools</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicWidget.h">
+      <Filter>头文件\EasyxTools</Filter>
+    </ClInclude>
+    <ClInclude Include="Pushbutton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cunfang.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="history.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Usersname.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="xx\存放情况.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="xx\管理员.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="xx\取餐历史.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\bk1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bk2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bk3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bk4.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
